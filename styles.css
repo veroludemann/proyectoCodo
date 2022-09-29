@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(234,234,234,1);;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* BARRA DE NAVEGACION Y LOGO */
+
+.logo{
+width: 110px;
+opacity: 0.8;
+margin-left: 0.5%;
+}
+
+.nav, a {
+    text-decoration: none;
+    color: #dc3545;
+    letter-spacing: 1px;
+    margin-right: 3%;
+    font-family:'Lobster', cursive;
+    font-size: 25px;
+}
+.menu{
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: -60px;
+    
+    
+    
+}
+
+
+/* CUERPO DE LA PAGINA */
+.contenido-texto{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 25%;
+    left: 2%;
+    color: rgb(3, 3, 109);
+    
+    
+}
+.img-1{
+    opacity: 0.3;
+    /* background-image: url(/img/banner1.jpg); */
+    background-color: #cccccc;
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    position: relative;
+    
+    
+}
+
+.contenido-texto p{
+    font-size: 18px;
+}
+
+/* SECCION-1 */
+ .section-1 {
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    height: 450px;
+    text-align: justify;
+    margin-top: 70px;
+    margin-left: 80px;
+    letter-spacing: 0.1px;
+    
+}
+
+.elegir{
+    position: relative;
+    margin-top: -80px;
+} 
+
+
+/* SECCION-2 */
+.section-2 {
+    width: 1100px;
+    height: 450px;
+    display: flex;
+    flex-direction:row-reverse;
+    text-align: justify;
+    margin-left: 80px;
+    margin-top: -110px;
+}
+
+.metodologia-img{
+    position: relative;
+    margin-top: -80px;
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+footer p{
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* INCRIPCIONES (FORMULARIOS) */
+/* boton enviar */
+.col-12 button{
+    margin-top: 15px;
+    
+
+}
+
+/* FORMULARIO DE CONTACTO */
+.estilo-form{
+    width: 700px;
+    height: 800px;
+    font-size: 15px;
+    margin-right: 100px;
+}
+
+.contacto{
+    margin-top: -450px;
+    margin-left: 650px;
+    font-size: 15px;
+}
+
+/* NUESTROS CURSOS - CARDS - CODEPEN */
+
+main {
+    
+    max-width: 1200px;
+    margin: 50px;
+    min-height: 100vw;
+  }
+  
+  h2 {
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  .card-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+   
+  }
+  
+  .card {
+    width: 350px;
+    padding: 15px;
+    margin: 8px;
+    border: 1px solid #d7d7d7;
+    border-radius: 2px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: white;
+  }
+  
+  .card:hover {
+    box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.15);
+  }
+  .card > img {
+    border-radius: 2px;
+    max-width: 100%;
+    margin-bottom: 1px;
+    
+  }
+  
+  .card h3 {
+    color: #dc3545;
+  }
+  
+  .card p {
+    color: #757575;
+    line-height: 1.5;
+    padding-top: 1px;
+  }
+
+  .boton-mover{
+    margin-left:450px;
+    margin-top: 50px;
+  }
+ .boton1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #dc3545; 
+  border: none;
+  color: white;
+  padding: 30px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 50%;
+}
+  
+  
