@@ -215,17 +215,6 @@ button:hover{
     margin-top: -80px;
 } */
 
-footer{
-    text-align: center;
-    margin-top: 30px;
-    
-}
-
-footer p{
-    font-size: 15px;
-    margin-top: 10px;
-    font-family: 'Times New Roman', Times, serif;
-}
 
 
 /* INCRIPCIONES (FORMULARIOS) */
@@ -239,6 +228,12 @@ footer p{
 }
 
 /* FORMULARIO DE CONTACTO */
+
+/* CONTACTO */
+.contacto h2, h3, h4{
+  color:  rgb(3, 3, 109);
+}
+
 .estilo-form{
     width: 700px;
     height: 800px;
@@ -251,6 +246,8 @@ footer p{
     margin-left: 650px;
     font-size: 15px;
 }
+
+
 
 /* NUESTROS CURSOS - CARDS - CODEPEN */
 
@@ -300,10 +297,26 @@ footer p{
   height: auto;
 }
 
-/* CONTACTO */
-.contacto h2, h3, h4{
-  color:  rgb(3, 3, 109);
+
+/* footer */
+
+
+
+footer{
+  text-align: center;
+  background-color: #0037DD;
+  font-size: 30px;
+  margin-top: auto;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
 }
+
+footer a{
+  color: #cccccc;
+}
+
+
+
 
 /* main {
     
