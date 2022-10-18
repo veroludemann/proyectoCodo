@@ -16,17 +16,15 @@ width: 110px;
 margin-left: 0.5%;
 }
 
-
-
 .submenu {
     text-decoration: none;
-    color:aliceblue;
+    color:rgb(3, 3, 109);
     letter-spacing: 1px;
     margin-right: 2%;
     font-family:'Lobster', cursive;
     font-size: 25px;
     border-radius: 10px;
-    background-color:  #dc3545;
+
     padding: 5px 10px 5px 10px;
 }
 .menu{
@@ -37,8 +35,7 @@ margin-left: 0.5%;
 }
 
 
-/* CUERPO DE LA PAGINA */
-
+/* header */
 
 .contenido-texto{
     font-size: 30px;
@@ -61,6 +58,7 @@ margin-left: 0.5%;
 .contenido-texto p{
     font-size: 18px;
 }
+
 
 /* CONTENIDO GENERAL DE LA PAGINA */
 main{
@@ -109,8 +107,10 @@ button:hover{
   background-color: #0037dd73;
 }
 
+/* ¿Por qué aprender con Learn Now? */
+
 .container3, .container3-text{
-  background-color:#dc3545;
+  background-color:rgb(3, 3, 109);
   text-align: center;
   padding: 20px;
   color: white;
@@ -119,7 +119,7 @@ button:hover{
 }
 
 .grid-container2{
-  background-color: #dc3545;
+  background-color: rgb(3, 3, 109);
   display: inline-grid;
   grid-template-columns: auto auto;
   padding: 20px;
@@ -179,41 +179,74 @@ button:hover{
 }
 
 
-/* SECCION-1 
- .section-1 {
-    display: flex;
-    justify-content: space-around;
-    width: 1100px;
-    height: 450px;
-    text-align: justify;
-    margin-top: 70px;
-    margin-left: 80px;
-    letter-spacing: 0.1px;
-    
+/* CURSOS */
+
+.container-cards{
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 7%;
 }
 
-.elegir{
-    position: relative;
-    margin-top: -80px;
-} 
-*/
 
-
-/* SECCION-2 
-.section-2 {
-    width: 1100px;
-    height: 450px;
-    display: flex;
-    flex-direction:row-reverse;
-    text-align: justify;
-    margin-left: 80px;
-    margin-top: -110px;
+.text-card p{
+  text-align: center;
+  color:#dc3545 ;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 100;
+  letter-spacing: 0.03em;
+  
 }
 
-.metodologia-img{
-    position: relative;
-    margin-top: -80px;
-} */
+.text-card h2{
+  font-size: 35px;
+  color:rgb(3, 3, 109) ;
+  
+}
+
+.container{
+  width: 100%;
+  max-width:1000px;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container .card{
+  width: 330px;
+  height: 350px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgb(0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgb(0, 0, 0.2)
+}
+
+.container .card img{
+  width: 330px;
+  height: 220px;
+}
+
+.container .card h3{
+  font-weight: 600;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-top: 10px;
+}
+
+.container .card button{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 
 
 
@@ -226,6 +259,7 @@ button:hover{
 .col-12 button{
     margin-top: 15px;
 }
+
 
 /* FORMULARIO DE CONTACTO */
 
@@ -248,63 +282,13 @@ button:hover{
 }
 
 
-
-/* NUESTROS CURSOS - CARDS - CODEPEN */
-
-.container-cards{
-  
-  text-align: center;
-  padding: 2%;
-}
-
-.col-container{
-  display: table;
-  width: 100%;
-}
-
-.col{
-  display: table-cell;
-  padding: 2%;
-}
-
-.col, .container{
-  padding-bottom: 10%;
-}
-
-.container, p{
-  padding-bottom: 5%;
-  letter-spacing: 0.03em;
-}
-
-.text-card p{
-  text-align: center;
-  font-size: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-weight: 100;
-  letter-spacing: 0.03em;
-}
-
-.text-card h3{
-  font-size: 25px;
-  letter-spacing: 0.03em;
-  color: rgb(3, 3, 109);
-}
-
-.card img{
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-
-/* footer */
+/* footer - MEJORAR!*/
 
 
 
 footer{
   text-align: center;
-  background-color: #0037DD;
+  background-color: rgb(3, 3, 109);
   font-size: 30px;
   margin-top: auto;
   font-family: 'Times New Roman', Times, serif;
@@ -318,70 +302,3 @@ footer a{
 
 
 
-/* main {
-    
-    max-width: 1200px;
-    margin: 50px;
-    min-height: 100vw;
-  }
-  
-  h2 {
-    padding: 20px 10px;
-    text-align: center;
-  }
-  
-  .card-row {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-   
-  }
-  
-  .card {
-    width: 350px;
-    padding: 15px;
-    margin: 8px;
-    border: 1px solid #d7d7d7;
-    border-radius: 2px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
-    background-color: white;
-  }
-  
-  .card:hover {
-    box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.15);
-  }
-  .card > img {
-    border-radius: 2px;
-    max-width: 100%;
-    margin-bottom: 1px;
-    
-  }
-  
-  .card h3 {
-    color: #dc3545;
-  }
-  
-  .card p {
-    color: #757575;
-    line-height: 1.5;
-    padding-top: 1px;
-  }
-
-  .boton-mover{
-    margin-left:450px;
-    margin-top: 50px;
-  }
- .boton1 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: #dc3545; 
-  border: none;
-  color: white;
-  padding: 30px 80px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 20px;
-  margin-right: 50%;
-}
-*/
-  
